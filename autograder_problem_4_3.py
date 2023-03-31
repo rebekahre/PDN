@@ -19,6 +19,7 @@ G = '\033[32m'  # green
 class Autograder_4_3(Base_Autograder):
 
     def __init__(self):
+        super().__init__()
         self.student_name = "Rebekah Lee"
         self.is_grad = True
 

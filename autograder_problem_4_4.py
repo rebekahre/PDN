@@ -20,7 +20,7 @@ class Autograder_4_4(Base_Autograder):
     def __init__(self):
         super().__init__()
 
-        self.student_name = "student"
+        self.student_name = "Rebekah Lee"
         self.is_grad = True
 
         # Directory information
